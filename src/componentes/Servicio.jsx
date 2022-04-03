@@ -84,7 +84,7 @@ export function Servicio() {
     <>
       <Container>
         <Form>
-          <Form.Group as={Col} controlId="formGridvalordelservico">
+          <Form.Group as={Col} controlId="formGridvalordelservicio">
             <Form.Label>Valor del Servicio</Form.Label>
             <Form.Control
               ref={valordelservicioRef}
@@ -131,7 +131,7 @@ export function Servicio() {
             {/* <Form.Control ref ={habilidadRef} type="number" placeholder="12345685"/> */}
           </Form.Group>
 
-          <Button className="my-2" variant="primary" onClick={handleServicio}type="submit">
+          <Button className="my-2" variant="primary" onClick={handleServicio}type="submit" id="btnguardar">
             Guardar
           </Button>
       

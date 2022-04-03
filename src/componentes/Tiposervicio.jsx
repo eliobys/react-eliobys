@@ -50,7 +50,7 @@ const handlehabilidad = async () => {
       <Container>
         <Form>
           <Row className="mb-3">
-            <Form.Group as={Col} controlId="formGridRol">
+            <Form.Group as={Col} controlId="formGridtipohabilidad">
               <Form.Label>Tipo De Habilidad</Form.Label>
               <Form.Control
                 ref={habilidadRef}
@@ -64,11 +64,11 @@ const handlehabilidad = async () => {
      
           </Row>
 
-          <Button onClick={handlehabilidad} variant="primary" type="guardar">
+          <Button onClick={handlehabilidad} variant="primary" type="guardar" id ="btnguardartiposervicio">
             Guardar
           </Button>
           <Link to="/usuario">
-            <Button variant="primary" className="btn btn-danger ">Volver al inicio</Button>
+            <Button variant="primary" className="btn btn-danger " id ="btnvolveralinicio">Volver al inicio</Button>
           </Link>
           <ToastContainer />
         </Form>

@@ -158,7 +158,7 @@ export function Usuario() {
           </Form.Group>
 
           <Row className="mb-3">
-            <Form.Group as={Col} controlId="formGridciudad">
+            <Form.Group as={Col} controlId="formGridciudadderesidencia">
               <Form.Label>Ciudad de Residencia</Form.Label>
               <Form.Control ref={ciudadderesidenciaRef} />
             </Form.Group>
@@ -194,24 +194,24 @@ export function Usuario() {
             </Form.Group>
           </Row>
 
-          <Button onClick={handleUsuario} variant="primary" type="submit">
+          <Button onClick={handleUsuario} variant="primary" type="submit" id="btnGuardar">
             Guardar
           </Button>
 
           <Link to="/tipo_servicio">
-              <Button variant="primary" className="btn btn-dark ">
+              <Button variant="primary" className="btn btn-dark " id =" btnagregarhabilidad">
                 Agregar una Habilidad
               </Button>
           </Link>
 
           <Link to="/Servicio">
-              <Button variant="primary" className=" btn btn-success">
+              <Button variant="primary" className=" btn btn-success" id ="btnpedirservicio">
                 Pedir un Servicio
               </Button>
           </Link>
 
           <Link to="/Aceptar-servicio">
-              <Button variant="primary">
+              <Button variant="primary" id ="btnaceptarservicio">
               Aceptar Servicio
               </Button>
           </Link>

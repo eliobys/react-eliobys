@@ -97,7 +97,7 @@ export function Aceptarservicio() {
             </Form.Group>
           </Row>
 
-          <Form.Group as={Col} controlId="formGridcedula">
+          <Form.Group as={Col} controlId="formGridvalordelservicio">
             <Form.Label>Valor del servicio</Form.Label>
             <Form.Control
               ref={valordelservicioRef}
@@ -106,7 +106,7 @@ export function Aceptarservicio() {
             />
           </Form.Group>
 
-          <Form.Group as={Col} controlId="formGridHabilidad">
+          <Form.Group as={Col} controlId="formGridhabilidad">
             <Form.Label>Habilidad: </Form.Label>
             <Form.Select ref={habilidadRef} defaultValue="null">
               <option value="null" disabled>
